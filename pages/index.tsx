@@ -1,4 +1,4 @@
-import NavBar from '../components/NavBar'
+import NavBar from '@components/NavBar';
 
 const Home = () => {
   return (
@@ -6,6 +6,6 @@ const Home = () => {
       <NavBar />
       <h1>Welcome gonorreas!</h1>
     </>
-  )
-}
-export default Home
+  );
+};
+export default Home;

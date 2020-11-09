@@ -1,17 +1,16 @@
-import { useRouter } from 'next/router'
-import NavBar from '../../components/NavBar'
-
+import { useRouter } from 'next/router';
+import NavBar from '../../components/NavBar';
 
 const ProductItem = () => {
   const {
     query: { productId }
-  } = useRouter()
+  } = useRouter();
   return (
     <div>
-      <NavBar/>
+      <NavBar />
       Esta es la pagina del producto: {productId}
     </div>
-  )
-}
+  );
+};
 
-export default ProductItem
+export default ProductItem;
